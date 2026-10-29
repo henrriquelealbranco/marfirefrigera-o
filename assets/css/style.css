@@ -558,6 +558,25 @@ ul, ol {
 }
 
 /* Cinematic Multi-Stop Overlay (Garante alto contraste nos textos e valoriza a profundidade da estrutura) */
+.hero-video-play {
+  position: absolute;
+  bottom: 20px;
+  left: 24px;
+  z-index: 4;
+  padding: 9px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  color: #FFFFFF;
+  background: rgba(8, 13, 26, 0.85);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.hero-video-play[hidden] {
+  display: none;
+}
+
 .hero-video-overlay {
   position: absolute;
   top: 0;
@@ -885,6 +904,9 @@ ul, ol {
 @media (prefers-reduced-motion: reduce) {
   .hero-bg-video {
     display: none;
+  }
+  .hero-bg-video.is-enabled {
+    display: block;
   }
   .scroll-wheel {
     animation: none;

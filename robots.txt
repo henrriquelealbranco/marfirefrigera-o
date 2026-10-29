@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.marfi.com.br/sitemap.xml
+Sitemap: https://www.xn--marfirefrigerao-xkb1e.com.br/sitemap.xml
